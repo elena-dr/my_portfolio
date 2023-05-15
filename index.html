@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Olena Drozdova</title>
 </head>
 <body>
+    <section class="nav">
+        <a href="#mySkills">Skills</a>
+        <a>My projects</a>
+        <a href="#contactMe">Contact me</a>
+        <a>About me</a>        
+    </section>
+    <section class="title">
+        <div class="text-container">        
+            <h1>I'm front-end developer</h1>
+        </div>
+    </section>
     
+    <section class="skills" id="mySkills">
+        <h3>MY SKILLS</h3>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <h4>Techologies: </h4>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>REST API</p>
+                    <p>GitHub</p>
+                    <p>Tailwind css</p>
+                    
+                    <p>Node.js</p>
+                    <p>Firebase</p>
+                    
+                  </div>
+                  <div class="swiper-slide">
+                    <h4>Framworks: </h4>
+                    <p>React</p>
+                    <p>Redux</p>
+                    <p>Vue</p>
+                    <p>Vuex</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <h4>Design Tools: </h4>
+                    <p>Figma</p>
+                    <p>Adobe Photoshop</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <h4>Methodology: </h4>
+                    <p>Agile</p>
+                    <p>Scrum</p>
+                </div>
+                  <!-- <div class="swiper-slide">
+                    <h4>Design principles: </h4>
+                    <p>SOLID</p>
+                  </div> -->
+                  <!-- <div class="swiper-slide">Slide 6</div>
+                  <div class="swiper-slide">Slide 7</div>
+                  <div class="swiper-slide">Slide 8</div>
+                  <div class="swiper-slide">Slide 9</div> -->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            
+        </div>
+    </section>
+    
+    <section class="contact">
+        <div class="title-img">
+            <img src="For_portfolio.jpg">
+        </div>
+        <div id="contactMe">
+            <h3>Contact me here: </h3>
+            <div class="contact-form">
+                <form>
+                <label>Name: </label>
+                <input type="text">
+                <label>Email: </label>
+                <input type="email">
+                <label>Message: </label>
+                <textarea></textarea>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="index.js"></script> 
 </body>
 </html>
