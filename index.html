@@ -6,54 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Fascinate+Inline&family=Roboto:ital@1&display=swap" rel="stylesheet">
     <title>Olena Drozdova</title>
 </head>
 <body>
     <section class="nav">
         <a href="#mySkills">Skills</a>
-        <a>My projects</a>
+        <a href="#myProjects">My projects</a>
         <a href="#contactMe">Contact me</a>
-        <a>About me</a>        
+        <a href="#aboutMe">About me</a>        
     </section>
     <section class="title">
         <div class="text-container">        
             <h1>I'm front-end developer</h1>
         </div>
     </section>
+    <section id="aboutMe">
+        <h4>Who am I?</h4>
+        <div class="about">
+            <div class="title-img">
+                <img src="For_portfolio.jpg">
+            </div>
+            <p class="text-about">I’m an aspiring front-end developer passionate about creating responsive web applications. I like to work with JavaScript and React, have a knowledge of Redux. I am passionate about building attractive and adaptive web design. 
+            <br>I like to learn new thing to upgrade my skills, stay average is not for me.
+            <br>High energy and nice personality makes me a perfect team-player.</p>          
+        </div>
+
+    </section>
     
     <section class="skills" id="mySkills">
         <h3>MY SKILLS</h3>
+        <div class="container">
+        <div class="box">
+            <h4>Techologies</h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>REST API</p>
+            <p>GitHub</p>
+            <p>Tailwind css</p>
+            <p>Node.js</p>
+            <p>Firebase</p>
+        </div>
+        <div class="box">
+        <h4>Frameworks</h4>
+        <p>React</p>
+        <p>Redux</p>
+        <p>Vue</p>
+        <p>Vuex</p>
+        </div>
+        <div class="box">
+            <h4>Design Tools</h4>
+            <p>Figma</p>
+            <p>Adobe Photoshop</p>
+        </div>
+        <div class="box">
+            <h4>Methodology</h4>
+            <p>Agile</p>
+            <p>Scrum</p>
+        </div> 
+    </div>
+    </section>
+    <section class="projects" id="myProjects">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <h4>Techologies: </h4>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>REST API</p>
-                    <p>GitHub</p>
-                    <p>Tailwind css</p>
-                    
-                    <p>Node.js</p>
-                    <p>Firebase</p>
-                    
+                    Project 1
                   </div>
                   <div class="swiper-slide">
-                    <h4>Framworks: </h4>
-                    <p>React</p>
-                    <p>Redux</p>
-                    <p>Vue</p>
-                    <p>Vuex</p>
+                    Project 2
                   </div>
                   <div class="swiper-slide">
-                    <h4>Design Tools: </h4>
-                    <p>Figma</p>
-                    <p>Adobe Photoshop</p>
+                    Project 3
                   </div>
                   <div class="swiper-slide">
-                    <h4>Methodology: </h4>
-                    <p>Agile</p>
-                    <p>Scrum</p>
+                    Project 4
                 </div>
                   <!-- <div class="swiper-slide">
                     <h4>Design principles: </h4>
@@ -71,20 +100,20 @@
     </section>
     
     <section class="contact">
-        <div class="title-img">
-            <img src="For_portfolio.jpg">
-        </div>
+        
         <div id="contactMe">
             <h3>Contact me here: </h3>
+            <button>Download CV</button>
+            
             <div class="contact-form">
                 <form>
-                <label>Name: </label>
-                <input type="text">
-                <label>Email: </label>
-                <input type="email">
-                <label>Message: </label>
-                <textarea></textarea>
-            </form>
+                    <label>Name: </label>
+                    <input type="text">
+                    <label>Email: </label>
+                    <input type="email">
+                    <label>Message: </label>
+                    <textarea></textarea>
+                </form>
             </div>
         </div>
     </section>
