@@ -189,7 +189,15 @@ img {
 
 textarea {
   height: 150px;
+  width: 60%;
+}
+
+.name,
+.input-text,
+.input-email {
+  height: 40px;
+  width: 60%;
 }
 .contactall-form {
-  padding-left: 600px;
+  padding-left: 200px;
 }
