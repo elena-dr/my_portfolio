@@ -176,3 +176,20 @@ img {
 .skills {
   padding-top: 80px;
 }
+
+.contact-container {
+  width: 100%;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: row;
+  justify-contaent: space-around;
+}
+
+textarea {
+  height: 150px;
+}
+.contactall-form {
+  padding-left: 600px;
+}
